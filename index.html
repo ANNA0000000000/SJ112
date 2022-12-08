@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+  <title>ลิงค์แชร์กิจกรรม</title>
+</head>
+<body>
+    <script src="https://static.line-scdn.net/liff/edge/versions/2.5.0/sdk.js"></script>
+    <script>
+        async function main() {
+                                         // Liff ID
+            await liff.init({ liffId: "1657676854-j4W7zq2q" })
+            await liff.shareTargetPicker([
+                {
+                    type: "flex",
+                    // ข้อความก่อนกดอ่าน
+                    altText: "พี่ว่างไหม",
+                    contents: 
+                    // โค้ดจาก line bot designer
+                    {
+  "type": "bubble",
+  "hero": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "image",
+        "url": "https://cdn.discordapp.com/attachments/1044595625481748520/1044595850032189482/50.png",
+        "size": "full",
+        "aspectRatio": "10.40:10.40"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://cdn.discordapp.com/attachments/1044595625481748520/1044596027069567007/ca26fcaf8cb3bc75.png",
+            "size": "full",
+            "aspectRatio": "10.40:5.20",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://lin.ee/yaM4h1R"
+            }
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "★รับเครดิตฟรี★",
+                "size": "sm",
+                "align": "center",
+                "color": "#ffffff",
+                "weight": "bold"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://cdn.discordapp.com/attachments/1044595625481748520/1044624694650880030/ezgif.com-gif-maker_9.png",
+                    "animated": true,
+                    "aspectRatio": "4:1"
+                  }
+                ],
+                "borderColor": "#cc3300",
+                "borderWidth": "light",
+                "cornerRadius": "md",
+                "background": {
+                  "type": "linearGradient",
+                  "angle": "0deg",
+                  "startColor": "#000000",
+                  "endColor": "#cc3300",
+                  "centerColor": "#000000"
+                },
+                "spacing": "md"
+              }
+            ],
+            "borderColor": "#cc3300",
+            "borderWidth": "medium",
+            "cornerRadius": "lg",
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "startColor": "#000000",
+              "endColor": "#330000"
+            },
+            "spacing": "sm",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://lin.ee/yaM4h1R"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "★สมัครสมาชิก★",
+                    "size": "sm",
+                    "align": "center",
+                    "color": "#ffffff",
+                    "weight": "bold"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "image",
+                        "url": "https://cdn.discordapp.com/attachments/1044595625481748520/1044624694650880030/ezgif.com-gif-maker_9.png",
+                        "animated": true,
+                        "aspectRatio": "4:1"
+                      }
+                    ],
+                    "borderColor": "#cc3300",
+                    "borderWidth": "light",
+                    "cornerRadius": "md",
+                    "background": {
+                      "type": "linearGradient",
+                      "angle": "0deg",
+                      "startColor": "#000000",
+                      "endColor": "#cc3300",
+                      "centerColor": "#000000"
+                    },
+                    "spacing": "md"
+                  }
+                ],
+                "borderColor": "#cc3300",
+                "borderWidth": "medium",
+                "cornerRadius": "lg",
+                "spacing": "sm",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "http://www.superjoker99.com/"
+                }
+              }
+            ],
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "startColor": "#000000",
+              "endColor": "#330000"
+            },
+            "action": {
+              "type": "message",
+              "label": "action",
+              "text": "โปรโมชั่น"
+            }
+          }
+        ],
+        "margin": "sm",
+        "spacing": "sm"
+      }
+    ],
+    "background": {
+      "type": "linearGradient",
+      "angle": "0deg",
+      "startColor": "#000000",
+      "endColor": "#000000",
+      "centerColor": "#cc3300"
+    },
+    "paddingAll": "sm",
+    "borderColor": "#ff3333",
+    "borderWidth": "normal",
+    "cornerRadius": "xl"
+  }
+}
+                }
+            ])
+            liff.closeWindow()
+        }
+        main()
+    </script>
+</body>
+</html>
